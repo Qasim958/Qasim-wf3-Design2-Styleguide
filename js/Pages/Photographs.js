@@ -25,5 +25,18 @@ export const Photographs = (main, section) => {
       </p>
     </div>
   </section>
+  <section class="mainInfo">
+    <div class="botique">
+      <h3>Default</h3>
+      <div class="botiqueGrid">
+        <img src="./../../assets/images/default.png" alt="Botique"  column="400px" />
+      </div>
+      <h3>Hover</h3>
+      <div class="botiqueGrid">
+        <img src="./../../assets/images/hover.png" alt="Botique"  column="400px" />
+      </div>
+      
+    </div>
+  </section>
     `;
 };

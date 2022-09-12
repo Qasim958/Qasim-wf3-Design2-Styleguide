@@ -154,7 +154,6 @@ section .body p:nth-child(1) {
 section .body p:nth-child(2) {
   font-size: 2rem;
 }
-
 section.mainInfo {
   background-color: #f1f1f1;
   margin: 2rem 1rem;
@@ -162,7 +161,6 @@ section.mainInfo {
   justify-content: center;
   align-items: flex-start;
 }
-
 section.mainInfo .botique {
   background-color: #f1f1f1;
   width: 90%;
@@ -183,6 +181,7 @@ section.mainInfo .botique h3 {
   align-items: center;
   border-top: 0.2rem solid #000000;
   border-bottom: 0.2rem solid #000000;
+  font-family: CormorantGaramond;
 }
 section.mainInfo .botique .botiqueLogo:nth-child(1) {
   width: 20rem;
@@ -202,7 +201,6 @@ section.mainInfo .botique .botiqueColors {
   align-items: center;
   flex-wrap: wrap;
 }
-
 section.mainInfo .botique .botiqueColors .color1,
 .color2,
 .color3,
@@ -262,5 +260,114 @@ section.mainInfo .botique .botiqueLogo img {
   width: 100%;
   height: 100%;
 }
+section.mainInfo .botique .botiqueTypography {
+  padding: 2rem 1rem;
+  font-size: 7.6rem;
+  font-family: BickhamScriptPro;
+}
+section.mainInfo .botique .botiqueTypography h1 {
+  border-top: 0.2rem solid #000000;
+  border-bottom: 0.2rem solid #000000;
+  font-size: 7.6rem;
+  font-family: BickhamScriptPro;
+}
+section.mainInfo .botique .botiqueTypography h2 {
+  font-size: 3rem;
+  font-family: CormorantGaramond;
+  border-top: 0.2rem solid #000000;
+  border-bottom: 0.2rem solid #000000;
+  padding: 1rem;
+}
+section.mainInfo .botique .botiqueTypography h3 {
+  font-size: 2.8rem;
+  font-family: CormorantGaramond;
+  border-top: 0.2rem solid #000000;
+  border-bottom: 0.2rem solid #000000;
+  padding: 1rem;
+}
+section.mainInfo .botique .botiqueTypography h4 {
+  font-size: 2.6rem;
+  font-family: CormorantGaramond;
+  border-top: 0.2rem solid #000000;
+  border-bottom: 0.2rem solid #000000;
+  padding: 1rem;
+}
+section.mainInfo .botique .botiqueTypography h5 {
+  font-size: 2.4rem;
+  font-family: CormorantGaramond;
+  border-top: 0.2rem solid #000000;
+  border-bottom: 0.2rem solid #000000;
+  padding: 1rem;
+}
+section.mainInfo .botique .botiqueTypography h6 {
+  font-size: 2.2rem;
+  font-family: CormorantGaramond;
+  border-top: 0.2rem solid #000000;
+  border-bottom: 0.2rem solid #000000;
+  padding: 1rem;
+}
+section.mainInfo .botique .botiqueTypography p {
+  font-family: SourceSansPro;
+  border-top: 0.2rem solid #000000;
+  border-bottom: 0.2rem solid #000000;
+  padding: 1rem;
+}
+section.mainInfo .botique .botiqueTypography p.p1 {
+  font-size: 3rem;
+}
+section.mainInfo .botique .botiqueTypography p.p2 {
+  font-size: 2rem;
+}
+section.mainInfo .botique .botiqueTypography p.links {
+  font-size: 2.4rem;
+}
+
+section.mainInfo .botique .botiqueForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.mainInfo .botique .botiqueForm input,
+section.mainInfo .botique .botiqueForm textarea {
+  margin: 1rem;
+  font-size: 1.8rem;
+  font-family: SourceSansPro;
+  color: #231f20;
+  border: 0.1rem solid #000000;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+}
+section.mainInfo .botique .botiqueForm textarea {
+  color: #231f20;
+  padding: 2rem 2rem;
+  height: 8rem;
+}
+section.mainInfo .botique .botiqueForm input:focus {
+  border: #8d7249;
+}
+section.mainInfo .botique .botiqueForm pre {
+  margin: 1rem;
+  font-size: 1.8rem;
+  font-family: SourceSansPro;
+  color: #231f20;
+  padding: 1rem 2rem;
+}
+section.mainInfo .botique .botiqueGrid {
+  margin: 2rem;
+}
+section.mainInfo .botique .botiqueGrid img {
+  width: 30rem;
+  height: 30rem;
+}
+section.mainInfo .botique .botiqueTypography ul {
+  margin: 2rem;
+  font-family: SourceSansPro;
+}
+
+section.mainInfo .botique .botiqueTypography li {
+  font-size: 2rem;
+  font-family: SourceSansPro;
+}
+
 @media screen and (max-height: 450px) {
 }

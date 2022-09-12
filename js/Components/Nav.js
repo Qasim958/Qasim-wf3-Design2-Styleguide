@@ -1,5 +1,5 @@
+import { Buttons } from "../Pages/Buttons.js";
 import { Colors } from "../Pages/Colors.js";
-import { CoreElements } from "../Pages/CoreElements.js";
 import { FormElements } from "../Pages/FormElements.js";
 import { Logo } from "../Pages/Logo.js";
 import { PagesLayouts } from "../Pages/PagesLayouts.js";
@@ -30,8 +30,8 @@ const navigateToPage = (section, main, c) => {
     case "typography":
       Typography(main, section);
       break;
-    case "coreElements":
-      CoreElements(main, section);
+    case "buttons":
+      Buttons(main, section);
       break;
     case "formElements":
       FormElements(main, section);

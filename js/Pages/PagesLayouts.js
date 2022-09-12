@@ -7,23 +7,24 @@ export const PagesLayouts = (main, section) => {
     </div>
     <div class="body">
       <p>
-        Hotel Budapest is in the heart of Budapest (5th district, city
-        centre) a few meters from the world famous pedestrian shopping
-        street (Váci utca) and the Danube. The hotel is located in the best
-        area of Budapest right next to the business district near the best
-        bars, restaurants, most exclusive shops, a few steps from the
-        Central Market Hall (Vásárcsarnok), Gellert Thermal Spa (Gellért
-        Fürdő) the Danube Cruise Terminal, and Corvinus University. All of
-        its rooms reflect the very popular, modern yet elegant style of
-        international boutique hotels.
+      The grid system used in this design system has an 8px base.
       </p>
-      <p>
-        The preferred approach is to use the Siren logo by itself, unlocked
-        from the wordmark. This allows flexibility to present the Siren with
-        greater prominence while maintaining a considered, open and modern
-        presentation.
+      <p>All elements must be distributed with the factors and multiples of 8.
       </p>
     </div>
   </section>
+  <section class="mainInfo">
+
+  <div class="botique">
+    <h3>Grid System</h3>
+    <div class="botiqueGrid">
+    <img src="./../../assets/images/grid.png" alt="Botique" width="400px" column="400px" />
+    
+    <img src="./../../assets/images/view.png" alt="Botique" width="400" column="700" />
+    </div>
+    
+    </div>
+
+</section>
     `;
 };
